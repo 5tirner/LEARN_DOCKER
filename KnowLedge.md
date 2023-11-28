@@ -17,6 +17,7 @@ Virtual machines are about isolating hardware, Docker is about isolating process
 - docker ps or docker container ls -> `Show Cntrs Details`.
 - docker build "The Path Of A Docker File Do You Want To Build Image With It" -> `build image`.
 - docker built -t or --tag "Image Name" "PATH" -> `Build Image With Name`.
+- docker kill "Image Name" -> `Stop An Image`.
 - docker images or docker image ls -> `To see Docker Images`.
 - docker pull "Image Name" -> `Pull An Image From Dockerhub`.
 - docker start "Cntr Name" -> `Start Container`.
