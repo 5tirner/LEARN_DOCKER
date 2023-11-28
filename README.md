@@ -15,7 +15,9 @@ Virtual machines are about isolating hardware, Docker is about isolating process
 
 `Basic Command Line For Docker`:
 - docker ps or docker container ls -> `Show Cntrs Details`.
-- docker images or docker image ls -> `To see Docker Images`
+- docker build "The Path Of A Docker File Do You Want To Build Image With It" -> `build image`.
+- docker built -t or --tag "Image Name" "PATH" -> `Build Image With Name`.
+- docker images or docker image ls -> `To see Docker Images`.
 - docker pull "Image Name" -> `Pull An Image From Dockerhub`.
 - docker start "Cntr Name" -> `Start Container`.
 - docker stop "Cntr Name" -> `Stop Container`.
