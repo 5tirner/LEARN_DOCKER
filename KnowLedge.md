@@ -11,4 +11,4 @@ Virtual machines are about isolating hardware, Docker is about isolating process
 - The Docker engine: the responsible for instantiating and running the containers.
 - Docker Volume is a mechanism to have a Docker managed file share between your container, You can map these volumes via so-called bind mounts into a container.
 - Docker Networking allows you to specify virtual Docker networks. Network traffic from and to containers is routed through a Docker proxy, This allows different setups for networking between individual containers.
-- Docker Compose is a feature to build and run several different containers from a single `docker-compose.yml` file, You can specify the exact images for the docker containers, the container names, networks, volumes and much more.\
+- Docker Compose is a feature to build and run several different containers from a single `docker-compose.yml` file, You can specify the exact images for the docker containers, the container names, networks, volumes and much more.
