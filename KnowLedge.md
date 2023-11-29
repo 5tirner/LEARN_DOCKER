@@ -1,5 +1,7 @@
-`Fisrt Of All`:\
-Docker is not a virtual machine, It is a mechanism to containerize applications and isolate the processes running these applications.
+`Fisrt Of All`:
+- Docker is not a virtual machine, It is a mechanism to containerize applications and isolate the processes running these applications, Docker uses a feature in the kernel, it's `NAMESPACES`.\
+`NameSpaces in the kernel`:
+- A Linux namespace is a feature that Linux kernel provides to allow us to isolate resources for a set of processes.
 
 `Notice`:\
 Virtual machines are about isolating hardware, Docker is about isolating processes.
