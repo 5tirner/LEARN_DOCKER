@@ -1,7 +1,9 @@
 `Fisrt Of All`:
 - Docker is not a virtual machine, It is a mechanism to containerize applications and isolate the processes running these applications, Docker uses a feature in the kernel, it's `NAMESPACES`.\
 `NameSpaces in the kernel`:
-- A Linux namespace is a feature that Linux kernel provides to allow us to isolate resources for a set of processes.
+- A Linux namespace is a feature that Linux kernel provides to allow us to isolate resources for a set of processes, that give us two advantege:
+    * Isolation of resources: One troublesome process won’t be taking down the whole host, it’ll only affect those processes belonging to a particular namespace.
+    * Security: The other advantage is that a security flaw in the process or processes running under a given namespace, won’t give access to the attacker to the whole system.
 
 `Notice`:\
 Virtual machines are about isolating hardware, Docker is about isolating processes.
